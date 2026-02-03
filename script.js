@@ -49,7 +49,9 @@ const paginas = {
         contenido: `
             <p>
                 Somos Despachantes de Aduana operando en los puertos de Rosario, Campana y Buenos Aires.
-                Coordinamos tu importación desde la A a la Z.
+                Te ofrecemos coordinar tu importación desde la A a la Z, clasificando arancelariamente la mercadería,
+                coordinando los fletes extranjeros, internacionales y locales con nuestros forwarders, 
+                realizando todo tipo de certificaciones ante terceros organismos y llevando a cabo la nacionalización de la mercadería ante ARCA.
             </p>
         `
     },
@@ -57,7 +59,7 @@ const paginas = {
         titulo: "Sobre Nosotros",
         contenido: `
             <p>
-                Somos un equipo ubicado en Inriville, Córdoba, dedicados a la fabricación
+                Somos un equipo de trabajo ubicado en INRIVILLE, CÓRDOBA, dedicados a la fabricación
                 y reparación metalúrgica con amplia experiencia en comercio exterior.
             </p>
         `
@@ -66,7 +68,7 @@ const paginas = {
         titulo: "Ponte en Contacto",
         contenido: `
             <p>
-                Envíanos un correo a info@rocchi.com o llámanos al +54 9 3467 419263.
+                Envíanos un correo a info@rocchi.com o llámanos al +54 9 3467 419263. ¡ Estamos para ayudarte !
             </p>
         `
     }
@@ -115,3 +117,4 @@ function cargarPagina(pagina) {
 }
 // Cargar página inicio al abrir el sitio
 cargarPagina("inicio");
+

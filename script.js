@@ -113,3 +113,5 @@ function cargarPagina(pagina) {
         });
     }
 }
+// Cargar página inicio al abrir el sitio
+cargarPagina("inicio");

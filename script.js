@@ -28,17 +28,17 @@ const paginas = {
 
                 <div class="galeria-item">
                     <h3>Parrilla de acero reforzado</h3>
-                    <img src="img/trabajo1.jpg" alt="Parrilla de acero">
+                    <img src="asador.jpeg" alt="Parrilla de acero">
                 </div>
 
                 <div class="galeria-item">
-                    <h3>Portón corredizo</h3>
-                    <img src="img/trabajo2.jpg" alt="Portón corredizo">
+                    <h3>Canasto de basura</h3>
+                    <img src="canasto.jpg" alt="Portón corredizo">
                 </div>
 
                 <div class="galeria-item">
-                    <h3>Estructura metálica</h3>
-                    <img src="img/trabajo3.jpg" alt="Estructura metálica">
+                    <h3>Andamio a medida</h3>
+                    <img src="andamio.jpg" alt="Estructura metálica">
                 </div>
 
             </div>
@@ -117,4 +117,5 @@ function cargarPagina(pagina) {
 }
 // Cargar página inicio al abrir el sitio
 cargarPagina("inicio");
+
 

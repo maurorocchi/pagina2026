@@ -22,7 +22,8 @@ body {
     min-height: 100vh;
 }
 
-/* Header y Logo */
+/* ================= HEADER ================= */
+
 header {
     background: var(--primary-color);
     color: var(--text-light);
@@ -51,7 +52,8 @@ header {
     line-height: 1.2;
 }
 
-/* Navegación */
+/* ================= NAV ================= */
+
 nav {
     background: #23395d;
     padding: 0.5rem 0;
@@ -59,124 +61,4 @@ nav {
 }
 
 .nav-menu {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
 
-.nav-link {
-    color: var(--text-light);
-    text-decoration: none;
-    font-weight: 500;
-    padding: 8px 15px;
-    transition: all 0.3s;
-    border-radius: 4px;
-}
-
-.nav-link:hover, .nav-link.active {
-    color: var(--accent-color);
-    background: rgba(255,255,255,0.1);
-}
-
-.menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin: 0 auto;
-}
-
-/* Contenido Principal */
-main {
-    flex: 1;
-    width: 90%;
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 30px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-}
-
-.page-content {
-    animation: fadeIn 0.5s ease;
-}
-
-h1 {
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
-    font-size: 2rem;
-}
-
-.btn-primary {
-    background: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-
-.btn-primary:hover {
-    background: var(--accent-color);
-}
-
-/* Footer */
-footer {
-    background: #eee;
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9rem;
-    color: #666;
-}
-
-/* --- RESPONSIVE --- */
-
-@media (max-width: 768px) {
-    .logo {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .logo-text {
-        font-size: 1.3rem;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-
-    .nav-menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    .nav-menu.active {
-        display: flex;
-    }
-
-    .nav-link {
-        width: 100%;
-        text-align: center;
-        padding: 12px;
-        border-radius: 0;
-    }
-
-    main {
-        padding: 20px;
-        margin: 15px auto;
-    }
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
